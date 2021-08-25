@@ -1,0 +1,19 @@
+{
+  "name": "easy-circular-buffer",
+  "version": "1.0.0",
+  "description": "Easy to use and high performance circular buffer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adellamaggiora/easy-circular-buffer.git"
+  },
+  "author": "adellamaggiora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adellamaggiora/easy-circular-buffer/issues"
+  },
+  "homepage": "https://github.com/adellamaggiora/easy-circular-buffer#readme"
+}
