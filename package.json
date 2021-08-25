@@ -1,6 +1,6 @@
 {
   "name": "easy-circular-buffer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy to use and high performance circular buffer",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/adellamaggiora/easy-circular-buffer.git"
   },
+  "keywords": [
+    "circular",
+    "buffer",
+    "circular buffer",
+    "circularbuffer",
+    "ring",    
+    "ring buffer",    
+    "ringbuffer"
+  ],
   "author": "adellamaggiora",
   "license": "MIT",
   "bugs": {
