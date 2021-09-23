@@ -17,9 +17,7 @@ function createCircularBuffer(length) {
         peekOldest: () => {
             return buffer[oldest]
         },
-        toArray: () => {
-            console.log(buffer)
- 
+        toArray: () => { 
             if (newest > oldest) {
                 return buffer.slice(0, newest + 1)
             }
