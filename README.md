@@ -1,4 +1,4 @@
-# easy-circular-buffer
+# circularbuffer
 
 ### Easy to use and high performance circular buffer
 
