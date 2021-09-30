@@ -26,6 +26,11 @@ function createCircularBuffer(length) {
                 const secondPart = buffer.slice(0, newest + 1)
                 return [...firstPart, ...secondPart]
             }
+        },
+        clear: () => {
+            buffer = []
+            newest = -1
+            oldest = 0
         }
     }
 
