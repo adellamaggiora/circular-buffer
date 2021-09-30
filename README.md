@@ -22,3 +22,4 @@
 * `cb.peekNewest()` <span style="color: forestgreen"> <*any*> </span> <span> Returns the newest item inserted in the circular buffer.</span>
 * `cb.peekOldest()` <span style="color: forestgreen"> <*any*> </span> <span> Returns the oldest item inserted in the circular buffer.</span>
 * `cb.toArray()` <span style="color: forestgreen"> <*Array<*any*>*>  </span> Returns an array sorted from oldest (at index 0) to newest item.</span>
+* `cb.clear()` <span style="color: forestgreen"> <*Array<*any*>*>  </span> Clear the circular buffer.</span>
