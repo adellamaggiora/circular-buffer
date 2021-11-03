@@ -4,7 +4,7 @@
 
 
 #### Usage
-`import { CircularBuffer } = from 'https://deno.land/x/circular_buffer@v1.0.0/mod.ts'
+`import { CircularBuffer } = from 'https://deno.land/x/circular_buffer@v1.0.0/mod.ts'`
 
 
 `const cb = new CircularBuffer(length)` 
