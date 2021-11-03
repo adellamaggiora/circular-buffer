@@ -2,7 +2,7 @@
   "name": "circular-buffer",
   "version": "1.0.2",
   "description": "Easy to use and high performance circular buffer",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
