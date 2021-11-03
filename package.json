@@ -1,6 +1,6 @@
 {
   "name": "circular-buffer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Easy to use and high performance circular buffer",
   "main": "index.ts",
   "scripts": {
