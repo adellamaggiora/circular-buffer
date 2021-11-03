@@ -3,17 +3,11 @@
 ### Easy to use and high performance circular buffer
 
 
-
-#### Installation
-
-`npm i easy-circular-buffer`
-
-
 #### Usage
+`import { CircularBuffer } = from('circular-buffer')`
 
-`const { createCircularBuffer } = require('easy-circular-buffer')`
 
-`const cb = createCircularBuffer(length)` 
+`const cb = new CircularBuffer(length)` 
 
 
 ##### Methods
@@ -22,4 +16,7 @@
 * `cb.peekNewest()` <span style="color: forestgreen"> <*any*> </span> <span> Returns the newest item inserted in the circular buffer.</span>
 * `cb.peekOldest()` <span style="color: forestgreen"> <*any*> </span> <span> Returns the oldest item inserted in the circular buffer.</span>
 * `cb.toArray()` <span style="color: forestgreen"> <*Array<*any*>*>  </span> Returns an array sorted from oldest (at index 0) to newest item.</span>
-* `cb.clear()` <span style="color: forestgreen"> <*Array<*any*>*>  </span> Clear the circular buffer.</span>
+* `cb.clear()` <span style="color: forestgreen"> <*void*>  </span> Clear the circular buffer.</span>
+* `cb.capacity()` <span style="color: forestgreen"> <*number*>  </span> Returns the capacity (max size available) in the circular buffer.</span>
+* `cb.size()` <span style="color: forestgreen"> <*number*>  </span> Returns the current size (total elements) of circular buffer.</span>
+* `cb.isFull()` <span style="color: forestgreen"> <*boolean*>  </span> Returns true if circular buffer is full, otherwise false.</span>
