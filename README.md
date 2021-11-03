@@ -18,5 +18,5 @@
 * `cb.toArray()` <span style="color: forestgreen"> <*Array<*any*>*>  </span> Returns an array sorted from oldest (at index 0) to newest item.</span>
 * `cb.clear()` <span style="color: forestgreen"> <*void*>  </span> Clear the circular buffer.</span>
 * `cb.capacity()` <span style="color: forestgreen"> <*number*>  </span> Returns the capacity (max size available) in the circular buffer.</span>
-* `cb.size()` <span style="color: forestgreen"> <*number*>  </span> Returns the current size (total elements) of circular buffer.</span>
+* `cb.size()` <span style="color: forestgreen"> <*number*>  </span> Returns the current size (total elements) of the circular buffer.</span>
 * `cb.isFull()` <span style="color: forestgreen"> <*boolean*>  </span> Returns true if circular buffer is full, otherwise false.</span>
