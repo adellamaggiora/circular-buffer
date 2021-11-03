@@ -10,6 +10,7 @@ export class CircularBuffer<T> {
   }
 
   //#region  public API
+  
   insert(item: T) {
     this._newest = (this._newest + 1) % this._capacity
     if (this._buffer.length >= this._capacity) {
@@ -54,6 +55,7 @@ export class CircularBuffer<T> {
   isFull(): boolean {
     return this.capacity() === this.size()
   }
-
+  
+  //#endregion
 
 }
