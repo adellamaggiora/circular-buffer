@@ -4,10 +4,10 @@
 
 
 #### Usage
-`import { CircularBuffer } = from 'https://deno.land/x/circular_buffer@v1.0.2/mod.ts'`
+`import { CircularBuffer } = from 'https://deno.land/x/circular_buffer@v1.0.3/mod.ts'`
 
 
-`const cb = new CircularBuffer(length)` 
+`const cb = new CircularBuffer<T>(length)` 
 
 
 ##### API
