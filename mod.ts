@@ -2,7 +2,7 @@ export class CircularBuffer<T> {
 
   private _newest = -1
   private _oldest = 0
-  private _buffer = []
+  private _buffer: T [] = []
   private _capacity
 
   constructor(length: number) {
