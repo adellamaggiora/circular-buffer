@@ -1,8 +1,8 @@
 {
   "name": "circular-buffer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Easy to use and high performance circular buffer",
-  "main": "index.ts",
+  "main": "mod.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
