@@ -10,7 +10,7 @@
 `const cb = new CircularBuffer(length)` 
 
 
-##### Methods
+##### API
 
 * `cb.insert()` <span style="color: forestgreen"> <*void*> </span> <span> Insert item into circular buffer. </span>
 * `cb.peekNewest()` <span style="color: forestgreen"> <*any*> </span> <span> Returns the newest item inserted in the circular buffer.</span>
